@@ -1,0 +1,17 @@
+[package]
+name = "stretchy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tray-item = "0.10.0"
+notify-rust = "4"
+chrono = "0.4.41"
+directories = "5.0"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+
+[build-dependencies]
+embed-resource = "2.3"  
